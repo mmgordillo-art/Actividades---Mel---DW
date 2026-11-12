@@ -1,12 +1,74 @@
 <!DOCTYPE html>
-<html lang="es">
-<head>
+<!--Doctype es una sentencia que indica que voy a trabajar con un
+ documento de HTML-->
+
+<html lang="es"> <!--Aqui inicia mi pagina con la etiqueta de html-->
+<head><!--Aqui en el head esta todo lo que no es visible en la pagina pero lo hace funcional-->
+<!--Con los metadatos puedo colocar caracteres especiales, dar informacion al SEO para posicionamiento web-->
+    <meta charset="UTF-8"><!--Permite caracteres especiales-->
+  <meta name="description" content="Musical Tame Impala">
+  <meta name="author" content="Melanie Gordillo">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="styles.css">
+
 <title>Musical Mel</title>
 </head>
 <body>
 
-<h1>Musical Mel</h1>
-<p>Escucha mis 3 canciones de POP</p>
+ <div class="container-musical">
+    <img src="img5.jpg" alt="Imagen de musical app" class="imagen-portada">
+
+    <h1>Musical Mel</h1>
+    <p class="pmusical">Tame Impala Therapy</p>
+
+    <div class="lista-canciones">
+        <!--Cancion 1-->
+        <div class="cancion1">
+             <p>1. Eventually</p>
+              <audio controls class="audio-player">
+                    <!-- Mp3 de prueba 1 -->
+                    <source src="Tame Impala - Eventually .mp3" type="audio/mpeg">
+                </audio>
+
+        </div>
+
+        <!--Cancion 2-->
+        <div class="cancion2">
+             <p>2. Let It Happen</p>
+              <audio controls class="audio-player">
+                    <!-- Mp3 de prueba 1 -->
+                    <source src="Tame Impala - Let It Happen .mp3" type="audio/mpeg">
+                </audio>
+
+        </div>
+
+        <!--Cancion 3-->
+        <div class="cancion3">
+             <p>3. One More Hour</p>
+              <audio controls class="audio-player">
+                    <!-- Mp3 de prueba 1 -->
+                    <source src="Tame Impala - One More Hour .mp3" type="audio/mpeg">
+                </audio>
+
+        </div>
+
+         <!--Cancion 4-->
+        <div class="cancion4">
+             <p>4. New Person, Same Old Mistakes</p>
+              <audio controls class="audio-player">
+                    <!-- Mp3 de prueba 1 -->
+                    <source src="Tame Impala - New Person, Same Old Mistakes.mp3" type="audio/mpeg">
+                </audio>
+
+        </div>
+
+
+
+
+
+
+    </div>
 
 </body>
 </html> 
