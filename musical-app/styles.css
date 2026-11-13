@@ -9,7 +9,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh; 
-    background: linear-gradient(135deg, #bc70fa, #ffffff);
+    background: linear-gradient(135deg, #b668f5, #ffffff);
     font-family:"Cormorant Garamond", serif;
     padding: 20px; 
 }
@@ -17,7 +17,7 @@ body {
 
 
 .container-musical{
-    background-color: rgb(254, 254, 254);
+    background-color: rgb(252, 251, 253);
     width: 350px; 
     padding: 25px;
     border-radius: 20px;
@@ -57,8 +57,39 @@ p{
     gap: 15px; /* Crea una separación automática entre cada canción */
 }
 
-canciones {
+.canciones {
     background-color: #f8f9fa; /* Un gris muuuy clarito */
     padding: 10px;
     border-radius: 10px;
+}
+
+.audio-player {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+
+
+
+.controles {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+.controles button {
+    background-color: #c26cf7;
+    color: rgb(246, 245, 248);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+
+.controles button:hover {
+    background-color: #e2c7f9;
 }

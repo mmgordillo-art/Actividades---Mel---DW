@@ -9,6 +9,7 @@
   <meta name="description" content="Musical Tame Impala">
   <meta name="author" content="Melanie Gordillo">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="styles.css">
 
@@ -22,53 +23,67 @@
     <h1>Musical Mel</h1>
     <p class="pmusical">Tame Impala Therapy</p>
 
-    <div class="lista-canciones">
-        <!--Cancion 1-->
-        <div class="cancion1">
-             <p>1. Eventually</p>
-              <audio controls class="audio-player">
-                    <!-- Mp3 de prueba 1 -->
-                    <source src="Tame Impala - Eventually .mp3" type="audio/mpeg">
-                </audio>
+    <!-- <div class="lista-canciones"> -->
 
-        </div>
+        <!--Cancion 1-->
+       <!--  <div class="cancion1">
+             <p>1. Eventually</p>
+              <audio controls class="audio-player">-->
+                    <!-- Mp3 de prueba 1 -->
+                   <!--  <source src="Tame Impala - Eventually .mp3" type="audio/mpeg">
+                 </audio> -->
 
         <!--Cancion 2-->
-        <div class="cancion2">
+        <!-- div class="cancion2">
              <p>2. Let It Happen</p>
-              <audio controls class="audio-player">
+              <audio controls class="audio-player"> -->
                     <!-- Mp3 de prueba 1 -->
-                    <source src="Tame Impala - Let It Happen .mp3" type="audio/mpeg">
-                </audio>
+                    <!-- <source src="Tame Impala - Let It Happen .mp3" type="audio/mpeg">
+                </audio> -->
 
-        </div>
+       <!--  </div> -->
 
         <!--Cancion 3-->
-        <div class="cancion3">
+       <!--  <div class="cancion3">
              <p>3. One More Hour</p>
-              <audio controls class="audio-player">
+              <audio controls class="audio-player"> -->
                     <!-- Mp3 de prueba 1 -->
-                    <source src="Tame Impala - One More Hour .mp3" type="audio/mpeg">
-                </audio>
+                   <!--  <source src="Tame Impala - One More Hour .mp3" type="audio/mpeg">
+                </audio> -->
 
-        </div>
+      <!--   </div> -->
 
          <!--Cancion 4-->
-        <div class="cancion4">
+       <!--  <div class="cancion4">
              <p>4. New Person, Same Old Mistakes</p>
-              <audio controls class="audio-player">
+              <audio controls class="audio-player"> -->
                     <!-- Mp3 de prueba 1 -->
-                    <source src="Tame Impala - New Person, Same Old Mistakes.mp3" type="audio/mpeg">
-                </audio>
+                   <!--  <source src="Tame Impala - New Person, Same Old Mistakes.mp3" type="audio/mpeg">
+                </audio> -->
 
+      <!--   </div> -->
+
+
+<!-- UNA SOLA CAJA DE REPRODUCTOR -->
+      <div class="canciones">
+        <!-- 1. Le ponemos id="nombre-cancion" para que JS cambie el texto -->
+        <p id="nombre-cancion">Eventually</p>
+        
+        <!--  Un solo audio con id="audio-player" -->
+        <audio id="audio-player" controls class="audio-player">
+          <source src="Tame Impala - Eventually .mp3" type="audio/mpeg">
+        </audio>
+
+
+        <!-- Agregamos los botones para avanzar y retroceder -->
+        <div class="controles">
+          <button id="btn-anterior">⏮ Anterior</button>
+          <button id="btn-siguiente">Siguiente ⏭</button>
         </div>
-
-
-
-
-
+       </div>
 
     </div>
 
+<script src="script.js"></script>
 </body>
 </html> 
